@@ -27,7 +27,7 @@ public class AuthController {
     private UserService userService;
 
     @Autowired
-    private ru.geekbrains.core.interfaces.ITokenService iTokenService;
+    private ru.gb.runov.core.interfaces.ITokenService iTokenService;
 
     @Autowired
     private ru.gb.runov.core.repositories.RedisRepository redisRepository;

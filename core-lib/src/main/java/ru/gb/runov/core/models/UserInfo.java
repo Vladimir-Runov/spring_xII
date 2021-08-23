@@ -1,4 +1,4 @@
-package ru.geekbrains.core.models;
+package ru.gb.runov.core.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

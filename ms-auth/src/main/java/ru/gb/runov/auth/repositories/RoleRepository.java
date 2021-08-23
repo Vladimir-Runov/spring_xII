@@ -1,7 +1,7 @@
 package ru.gb.runov.auth.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.geekbrains.auth.entities.Role;
+import ru.gb.runov.auth.entities.Role;
 
 public interface RoleRepository extends JpaRepository<Role, Integer> {
 

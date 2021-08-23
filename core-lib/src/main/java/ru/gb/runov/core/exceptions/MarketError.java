@@ -1,4 +1,4 @@
-package ru.geekbrains.core.exceptions;
+package ru.gb.runov.core.exceptions;
 
 import lombok.Data;
 

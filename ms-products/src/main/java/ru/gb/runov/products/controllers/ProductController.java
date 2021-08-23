@@ -41,7 +41,7 @@ public class ProductController {
 
     @GetMapping("/{id}")
     public ProductDto findProductById(@PathVariable Long id) {
-        return productService.findProductDtoById(id).orElseThrow(() -> new ru.geekbrains.core.exceptions.ResourceNotFoundException("Product with id: " + id + " doens't exist"));
+        return productService.findProductDtoById(id).orElseThrow(() -> new ru.gb.runov.core.exceptions.ResourceNotFoundException("Product with id: " + id + " doens't exist"));
     }
 
     @PostMapping

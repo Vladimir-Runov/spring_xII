@@ -1,4 +1,4 @@
-package ru.geekbrains.core.services;
+package ru.gb.runov.core.services;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
@@ -7,8 +7,8 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import ru.geekbrains.core.interfaces.ITokenService;
-import ru.geekbrains.core.models.UserInfo;
+import ru.gb.runov.core.interfaces.ITokenService;
+import ru.gb.runov.core.models.UserInfo;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;

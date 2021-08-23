@@ -3,10 +3,10 @@ package ru.gb.runov.auth.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import ru.geekbrains.auth.entities.Role;
-import ru.geekbrains.auth.entities.User;
-import ru.geekbrains.auth.repositories.RoleRepository;
-import ru.geekbrains.auth.repositories.UserRepository;
+import ru.gb.runov.auth.entities.Role;
+import ru.gb.runov.auth.entities.User;
+import ru.gb.runov.auth.repositories.RoleRepository;
+import ru.gb.runov.auth.repositories.UserRepository;
 
 import java.util.Collections;
 

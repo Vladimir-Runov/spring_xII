@@ -1,6 +1,6 @@
-package ru.geekbrains.core.interfaces;
+package ru.gb,runov.core.interfaces;
 
-import ru.geekbrains.core.models.UserInfo;
+import ru.gb.runov.core.models.UserInfo;
 
 public interface ITokenService {
 

@@ -1,4 +1,4 @@
-package ru.geekbrains.core.configurations;
+package ru.gb.runov.core.configurations;
 
 public class RedisConfiguration {
 
